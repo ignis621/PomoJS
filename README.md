@@ -11,12 +11,12 @@ PomoJS is free to use under the MIT license. You can change it, share it, and se
 If you wanna read it in legal language, see the [LICENSE](https://github.com/Ignis621/PomoJS/blob/main/LICENSE).
 
 ## About the code
-Oh, the code that's not for the faint of heart,
-Beware, for it might tear your mind apart.
-The warning's clear, it's not the best,
+Oh, the code that's not for the faint of heart,  
+Beware, for it might tear your mind apart.  
+The warning's clear, it's not the best,  
 A newbie's work, put to the test.
 
-Despite its flaws, it gets the job done,
-So use with care, for it's not much fun.
-JavaScript's tricky, we all know,
+Despite its flaws, it gets the job done,  
+So use with care, for it's not much fun.  
+JavaScript's tricky, we all know,  
 But with practice, your code will glow.

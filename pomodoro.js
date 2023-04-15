@@ -136,7 +136,7 @@ stopBtn.addEventListener('click', () => {
   stopAudio.play();
   aboutSection.classList.remove('hidden');
   switchInputs(true);
-  setStatusColor(""); 
+  setStatusColor("idle"); 
 });
 
 function setStatusColor(status) {

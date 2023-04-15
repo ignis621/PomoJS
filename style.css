@@ -6,12 +6,12 @@ body, *{
     box-sizing: border-box;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
+    color-scheme: dark;
 }
 
 :root{
     --bg-primary: #1e1e2e;
     --bg-secondary: #313244;
-    --link-color: #e2e2f3;
     --accent-color: #e2e2f3;
 
     --work-color: #89b4fa;
@@ -66,30 +66,6 @@ body, *{
     row-gap: 1em;
 }
 
-p{
-    margin-block: 1em;
-
-}
-
-h1{
-    font-size: 1.6em;
-}
-
-a{
-    color: var(--accent-color);
-    background-color: var(--bg-primary);
-    font-weight: bold;
-    padding-inline: .2em;
-    text-decoration: none;
-    transition: color var(--transition-length) ease, background-color var(--transition-length) ease;
-}
-
-a:hover{
-
-    background-color: var(--accent-color);
-    color: var(--bg-primary);
-}
-
 #state{
     display: flex;
     flex-direction: column;
@@ -102,10 +78,6 @@ a:hover{
     font-size: 2em;
 }
 
-#status{
-
-}
-
 #intervals {
     display: flex;
     flex-direction: column;
@@ -114,7 +86,6 @@ a:hover{
     row-gap: .2em;
 
 }
-
 
 #controls{
     display: flex;
@@ -148,4 +119,26 @@ button{
 .disabled {
     opacity: 0.6;
     cursor: not-allowed;
+}
+
+p{
+    margin-block: 1em;
+}
+
+h1{
+    font-size: 1.6em;
+}
+
+a{
+    color: var(--accent-color);
+    background-color: var(--bg-primary);
+    font-weight: bold;
+    padding-inline: .2em;
+    text-decoration: none;
+    transition: color var(--transition-length) ease, background-color var(--transition-length) ease;
+}
+
+a:hover{
+    background-color: var(--accent-color);
+    color: var(--bg-primary);
 }

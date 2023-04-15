@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+    <meta name="title" content="PomoJS">
+    <meta name="author" content="Ignis621">
+
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <title>PomoJS</title>
+</head>
+<body>
+  <div class="section" id="pomodoro-container">
+    <div id="pomodoro"> 
+      <div id="state" class="minisection">
+
+        <div id="status">Let's get some work done</div>
+        <div id="timer">PomoJS</div>
+
+      </div>
+      
+
+      <form id="intervals" class="minisection">
+        <label for="work-length">Work Interval Length:</label>
+        <input type="number" id="work-length" value="25">
+        <br>
+
+        <label for="short-break-length">Short Break Length:</label>
+        <input type="number" id="short-break-length" value="5">
+        <br>
+
+        <label for="long-break-length">Long Break Length:</label>
+        <input type="number" id="long-break-length" value="15">
+        <br>
+
+        <label for="num-short-breaks">Short Breaks Until Long Break:</label>
+        <input type="number" id="num-short-breaks" value="4">
+      </form>
+
+      <div id="controls" class="minisection">
+        <button id="start-btn">Start</button>
+        <button id="pause-btn" class="disabled">Pause</button>
+        <button id="stop-btn"class="disabled">Stop</button>
+      </div>
+
+    </div>
+  </div>
+  <div class="section" id="about">
+    <div id="about-text">
+      <h1>About</h1>
+      <p>
+        PomoJS is a simple pomodoro timer written in JavaScript. It is designed to be as minimal as possible, while still being functional. It's also designed to be as lightweight as possible, so it can be used on any device.
+      </p>
+
+      <p>
+        PomoJS is open source, and can be found on <a href="https://github.com/Ignis621/PomoJS">GitHub</a>.
+      </p>
+
+      <p>This site uses:</p>
+      <ul>
+        <li>The <a href="https://github.com/catppuccin/catppuccin">Catppuccin</a> (Mocha) color palette</li>
+        <li><a href="https://m2.material.io/design/sound/sound-resources.html">Material Product Sounds</a> by Google</li>
+        
+
+  </div>
+
+  <script src="pomodoro.js"></script>
+</body>
+</html>

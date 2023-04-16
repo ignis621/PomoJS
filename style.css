@@ -68,6 +68,20 @@ body, *{
     row-gap: 1em;
 }
 
+.warning{
+    padding-inline: 1em;
+    color: var(--paused-color);
+    text-align: center;
+}
+
+#mobile-warning{
+
+}
+
+#js-warning{
+
+}
+
 #state{
     display: flex;
     flex-direction: column;

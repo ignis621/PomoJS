@@ -25,6 +25,16 @@
 <body class="idle">
   <div class="section" id="pomodoro-container">
     <div id="pomodoro"> 
+
+      <div id="js-warning" class="minisection warning">
+          <p>This site uses JavaScript to run the timer. If you have JavaScript disabled, the timer will not work. <a href="https://enable-javascript.com/">Learn how to enable JS</a></p>
+
+      <div id="mobile-warning" class="minisection warning hidden">
+          <p>Your experience on mobile will be degraded, as the timer will not run in the background. You may want to check out WorkTimer on <a href="https://f-droid.org/en/packages/com.mcsnowflake.worktimer/">F-Droid</a> or an alternative on <a href="https://play.google.com/store/search?q=work%20timer%20pomodoro&c=apps">Play Store</a></p>
+      </div>
+
+      </div>
+
       <div id="state" class="minisection">
 
         <div id="status">Let's get some work done</div>
@@ -84,5 +94,6 @@
   </div>
   
   <script src="pomodoro.js"></script>
+  <script src="warnings.js"></script>
 </body>
 </html>

@@ -66,6 +66,7 @@ body, *{
     width: 800px;
     text-align: left;
     row-gap: 1em;
+    padding-block: 4em;
 }
 
 .warning{

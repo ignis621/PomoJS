@@ -10,7 +10,7 @@ dismissButtons.forEach(button => {
 });
 
 const movingWarning = document.getElementById('moving-warning');
-const currentUrl = window.location.href;
-if(currentUrl=="https://pomojs.ignisdev.xyz"){
+const currentUrl = location.hostname;
+if(currentUrl=="pomojs.ignisdev.xyz"){
   movingWarning.classList.add('hidden');
 }

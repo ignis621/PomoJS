@@ -76,24 +76,6 @@ body, *{
     text-align: center;
 }
 
-#mobile-warning{
-
-}
-
-#js-warning{
-    height: 0;
-    margin: 0;
-    animation-name: show-element;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
-    overflow: hidden;
-}
-
-@keyframes show-element {
-    0% { height: 0; margin: 0; }
-    100% { height: auto; margin: 1em 0 1em 0; }
-}
-
 #state{
     display: flex;
     flex-direction: column;

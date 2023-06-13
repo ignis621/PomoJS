@@ -8,3 +8,9 @@ dismissButtons.forEach(button => {
     parentDiv.classList.add("hidden");
   });
 });
+
+const movingWarning = document.getElementById('moving-warning');
+const currentUrl = window.location.href;
+if(currentUrl=="https://pomojs.ignisdev.xyz"){
+  movingWarning.classList.add('hidden');
+}

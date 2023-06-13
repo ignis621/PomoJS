@@ -13,4 +13,3 @@ const movingWarning = document.getElementById('moving-warning');
 const currentUrl = location.hostname;
 if(currentUrl!="pomojs.ignisdev.xyz"){
   movingWarning.classList.remove('hidden');
-}

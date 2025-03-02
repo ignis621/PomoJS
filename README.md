@@ -1,7 +1,7 @@
 # PomoJS
 PomoJS is a simple pomodoro timer written in vanilla JavaScript. It is designed to be as minimal as possible, while still being functional. It's also designed to be as lightweight as possible, so it can be used on any device.
 
-You can try it out at [pomojs.ignisdev.xyz](https://pomojs.ignis621.net/) :D
+You can try it out at [pomojs.ignis621.net](https://pomojs.ignis621.net/) :D
 
 This project uses
 - The [Catppuccin](https://github.com/catppuccin/catppuccin) (Mocha) color palette
